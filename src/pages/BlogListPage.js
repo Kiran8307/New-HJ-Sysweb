@@ -13,7 +13,7 @@ export default function BlogListPage({
   showBoard = true,
   title = "Blogs",
 }) {
-  const [after, setAfter] = useState(null);
+  const [after] = useState(null);
   const { data, loading, error, fetchMore, refetch } = useQuery(GET_POSTS, {
     variables: { first: 12, after },
     notifyOnNetworkStatusChange: true,

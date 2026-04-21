@@ -9,7 +9,7 @@ export default function SubServiceStack({ items, palette, serviceId }) {
   // // sync hash when hovering
   useEffect(() => {
     if (hovered < 0 || !items[hovered]) return;
-    const id = items[hovered].id;
+    // const id = items[hovered].id;
     //     history.replaceState(null, "", `#${id}`);
   }, [hovered, items]);
 

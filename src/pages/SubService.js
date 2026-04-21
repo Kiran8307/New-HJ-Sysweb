@@ -8,7 +8,6 @@ import Testimonials from "../components/Testimonials";
 import BreadcrumbHero from "../components/BreadcrumbHero";
 import HangingBoard from "../components/BreadCrumb/HangingBoard";
 import { useParams } from "react-router-dom";
-import subServices from "../components/service/sub-service.json";
 import services from "../components/service/service.json";
 
 const BoldFirstWord = ({ text }) => {
