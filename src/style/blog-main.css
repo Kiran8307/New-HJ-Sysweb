@@ -1,0 +1,248 @@
+/* base padding already present */
+.blog-index {
+  padding-top: clamp(20px, 4vw, 40px);
+}
+
+/* 2-column layout: sticky left */
+.blog-index-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: clamp(16px, 3vw, 32px);
+  align-items: start;
+}
+
+/* SIDEBAR */
+.blog-aside {
+  min-width: 0;
+}
+
+.aside-sticky {
+  position: sticky;
+  top: clamp(12px, 6vh, 64px); /* adjust for your header height */
+  display: grid;
+  gap: 16px;
+}
+
+.aside-card {
+  border-radius: 16px;
+  padding: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 28px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.06);
+  backdrop-filter: blur(4px);
+}
+
+.aside-heading {
+  margin: 0 0 10px 0;
+  font: 800 18px/1.2 "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.blog-text{
+  color: #FCC10F !important;
+}
+
+.category-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.cat-item { display: block; }
+
+.cat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: #0b0b0b;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.08);
+  transition: transform .2s ease, background .25s ease, box-shadow .25s ease;
+}
+.cat-pill:hover { transform: translateY(-1px); background: #141414; }
+.cat-pill.is-muted { opacity: .8; pointer-events: none; }
+
+.consult-card .aside-note {
+  margin: 6px 0 12px 0;
+  font-size: 14px;
+  opacity: .85;
+}
+
+.consult-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: #FCC10F;
+  color: #111;
+  font-weight: 800;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.25);
+  box-shadow: 0 8px 22px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.25);
+  transition: background .25s ease, transform .2s ease, box-shadow .25s ease;
+}
+.consult-btn:hover { background: #fff; transform: translateY(-1px); }
+
+/* RIGHT: grid title spacing */
+.grid-title { margin-bottom: 8px; }
+
+/* Cards grid */
+.blog-grid-wrap { min-width: 0; }
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: clamp(12px, 2vw, 20px);
+}
+.load-more{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.loader-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px; /* adjust height for where it appears */
+  width: 100%;
+  text-align: center;
+}
+
+.wp-faq-container h3 {
+    text-align: left;
+}
+
+/* reuse your .post styles; only tweak image height for grid */
+
+/* RESPONSIVE */
+@media (max-width: 1180px) {
+  .blog-grid {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+  .blog-grid .post-media img { height: 320px; }
+}
+
+@media (max-width: 980px) {
+  .blog-index-grid {
+    grid-template-columns: 1fr; /* stack */
+  }
+  .aside-sticky { position: static; }
+  .blog-aside { order: 2; } /* sidebar below the grid on mobile */
+  .blog-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+
+@media (max-width: 560px) {
+  .blog-grid { grid-template-columns: 1fr; }
+  .blog-grid .post-media img { height: 100%; }
+}
+
+
+
+
+
+
+
+
+/* --- FAQ Section Styles --- */
+
+.wp-faq-container {
+  width: 100%;
+  margin: 30px 0;
+  font-family: inherit;
+}
+
+.wp-faq-container h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Base style for the closed FAQ item */
+.wp-faq-item {
+  background: #fdfdfd; /* Very light grey/white background */
+  border: 1px solid #eaeaea; /* Light grey border */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Style for the FAQ item when it is OPEN */
+.wp-faq-item[open] {
+  border: 1px solid #e3ad0b; /* Your gold color */
+  background: #fff;
+}
+
+/* The Question Text */
+.wp-faq-question {
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333; /* Dark text when closed */
+  cursor: pointer;
+  list-style: none; /* Hides the default black triangle */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+/* Hides default triangle in Safari */
+.wp-faq-question::-webkit-details-marker {
+  display: none;
+}
+
+/* Gold text color when the question is OPEN */
+.wp-faq-item[open] .wp-faq-question {
+  color: #e3ad0b;
+}
+
+/* The Plus (+) Icon for closed state */
+.wp-faq-question::after {
+  content: '+';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  color: #666;
+  font-size: 18px;
+  font-weight: normal;
+  flex-shrink: 0;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}
+
+/* The Minus (−) Icon for open state */
+.wp-faq-item[open] .wp-faq-question::after {
+  content: '−';
+  background-color: #e3ad0b;
+  border-color: #e3ad0b;
+  color: #fff; /* White minus sign inside gold circle */
+}
+
+/* The Answer Text */
+.wp-faq-answer {
+  padding: 0 20px 20px 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Fix spacing for paragraphs inside the answer */
+.wp-faq-answer p {
+  margin: 0 0 10px 0;
+}
+
+.wp-faq-answer p:last-child {
+  margin-bottom: 0;
+}
