@@ -59,13 +59,25 @@ function Lane({ items, dir = "down", className = "" }) {
 
 export default function HeroScroller() {
   const [isMobile, setIsMobile] = useState(false);
+  const [canRender, setCanRender] = useState(false);
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 768);
     check();
     window.addEventListener("resize", check);
-    return () => window.removeEventListener("resize", check);
+    
+    // Defer the massive DOM node creation by 1 second so mobile CPU can focus on First Contentful Paint
+    const timer = setTimeout(() => setCanRender(true), 1500);
+
+    return () => {
+      window.removeEventListener("resize", check);
+      clearTimeout(timer);
+    };
   }, []);
+
+  if (!canRender) {
+    return <div className="scroller" style={{ minHeight: '300px' }}></div>;
+  }
 
   // For mobile → merge both arrays and scroll down in one lane
   if (isMobile) {

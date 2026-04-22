@@ -6,9 +6,12 @@ export default function HeroSection() {
   const [loadVideo, setLoadVideo] = useState(false);
 
   useEffect(() => {
-    // Defers loading the 15MB video by 1 second to completely free up initial LCP and FCP bandwidth
-    const timer = setTimeout(() => setLoadVideo(true), 1000);
-    return () => clearTimeout(timer);
+    // Only load the massive video if we are on a fast desktop device to save Mobile CPU & Bandwidth
+    const isMobile = window.innerWidth <= 768;
+    if (!isMobile) {
+      const timer = setTimeout(() => setLoadVideo(true), 1500);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   return (
