@@ -1,21 +1,30 @@
-"use client";
+import { useEffect, useState } from "react";
 import "./../components/style/hero.css";
 import HeroScroller from "./HeroScroller";
 
 export default function HeroSection() {
+  const [loadVideo, setLoadVideo] = useState(false);
+
+  useEffect(() => {
+    // Defers loading the 15MB video by 1 second to completely free up initial LCP and FCP bandwidth
+    const timer = setTimeout(() => setLoadVideo(true), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section className="hero site-gutter">
       {/* looping video background */}
-      <video
-        className="hero-video"
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="metadata"
-      >
-        <source src="/earth-bg.webm" type="video/webm" />
-      </video>
+      {loadVideo && (
+        <video
+          className="hero-video"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/earth-bg.webm" type="video/webm" />
+        </video>
+      )}
 
       {/* gradient overlay */}
       {/* <div className="hero-overlay" />   */}
