@@ -29,14 +29,13 @@ export default function SubServiceStack({ items, palette, serviceId }) {
           >
             <div className="ss-head">
               <h1 className="ss-title">{it.title}</h1>
-              <h6>
-                <Link
-                  to={`/services/${serviceId}/${it.id}`}
-                  className="svc-card-link"
-                >
-                  View More
-                </Link>
-              </h6>
+              <Link
+                to={`/services/${serviceId}/${it.id}`}
+                className="btn-outline"
+                style={{ padding: '8px 20px', borderRadius: '30px', fontSize: '14px', whiteSpace: 'nowrap', textDecoration: 'none' }}
+              >
+                View More
+              </Link>
             </div>
 
             <div id={`panel-${it.id}`} role="tabpanel" className="ss-body">

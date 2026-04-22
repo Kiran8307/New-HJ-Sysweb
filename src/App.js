@@ -6,25 +6,25 @@ import RootLayout from "./layouts/RootLayout";
 
 import Main from "./pages/Main";
 
-// Lazy load other non-critical routes to reduce main JS bundle size
-const AboutUs = React.lazy(() => import("./pages/AboutUs"));
-const ContactUs = React.lazy(() => import("./pages/ContactUs"));
-const AuditPage = React.lazy(() => import("./pages/Audit"));
-const IndustriesPage = React.lazy(() => import("./pages/Industries"));
-const CareerPage = React.lazy(() => import("./pages/Career"));
-const PortfolioPage = React.lazy(() => import("./pages/Portfolio"));
-const CaseStudiesPage = React.lazy(() => import("./pages/CaseStudies"));
-const CaseStudySingle = React.lazy(() => import("./pages/CaseStudySingle"));
-const ServicesPage = React.lazy(() => import("./pages/Services"));
-const ServiceSinglePage = React.lazy(() => import("./pages/ServiceSingle"));
-const BlogListPage = React.lazy(() => import("./pages/BlogListPage"));
-const BlogDetailPage = React.lazy(() => import("./pages/BlogDetailPage"));
-const ScrollToTop = React.lazy(() => import("./components/ScrollToTop"));
-const NotFound = React.lazy(() => import("./pages/NotFound"));
-const ThankYouPage = React.lazy(() => import("./pages/ThankYouPage"));
-const SubService = React.lazy(() => import("./pages/SubService"));
-const LocationPage = React.lazy(() => import("./components/Locationcites/LocationPage"));
-const CityServiceDetail = React.lazy(() => import("./components/Locationcites/CityServiceDetail"));
+// Standard imports to avoid lazy loading issues requested by user
+import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
+import AuditPage from "./pages/Audit";
+import IndustriesPage from "./pages/Industries";
+import CareerPage from "./pages/Career";
+import PortfolioPage from "./pages/Portfolio";
+import CaseStudiesPage from "./pages/CaseStudies";
+import CaseStudySingle from "./pages/CaseStudySingle";
+import ServicesPage from "./pages/Services";
+import ServiceSinglePage from "./pages/ServiceSingle";
+import BlogListPage from "./pages/BlogListPage";
+import BlogDetailPage from "./pages/BlogDetailPage";
+import ScrollToTop from "./components/ScrollToTop";
+import NotFound from "./pages/NotFound";
+import ThankYouPage from "./pages/ThankYouPage";
+import SubService from "./pages/SubService";
+import LocationPage from "./components/Locationcites/LocationPage";
+import CityServiceDetail from "./components/Locationcites/CityServiceDetail";
 
 const SITE_URL = "https://www.hjsysweb.com";
 
@@ -53,7 +53,6 @@ export default function App() {
       </Helmet>
 
       <RootLayout>
-        <React.Suspense fallback={<div style={{minHeight: '100vh', display: 'flex', background: '#0a0a0a'}}></div>}>
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Main />} />
@@ -80,7 +79,6 @@ export default function App() {
             <Route path="/location/:cityId/:serviceId" element={<CityServiceDetail />} />
             
           </Routes>
-        </React.Suspense>
       </RootLayout>
     </>
   );
