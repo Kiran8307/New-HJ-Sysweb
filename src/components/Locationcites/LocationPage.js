@@ -107,7 +107,11 @@ export default function LocationPage() {
 
                 <div id={`panel-${it.id}`} role="tabpanel" className="ss-body">
                   <div className="ss-body-inner">
-                    <div className="ss-copy">
+                    <div className="ss-copy" style={{ textAlign: "justify" }}>
+                      {it.description || it.desc ? (
+                        <p className="ss-desc" style={{ marginBottom: "15px" }}>{it.description || it.desc}</p>
+                      ) : null}
+
                       {(it.features || it.points)?.length ? (
                         <ul className="ss-list">
                           {(it.features || it.points).map((p, idx) => {
@@ -123,15 +127,11 @@ export default function LocationPage() {
                           })}
                         </ul>
                       ) : null}
-
-                      {it.description || it.desc ? (
-                        <p className="ss-desc">{it.description || it.desc}</p>
-                      ) : null}
                     </div>
 
                     <div className="ss-art">
                       {it.image ? (
-                        <img src={it.image} alt={it.name || it.title} style={{height:'100%'}}/>
+                        <img src={it.image} alt={it.name || it.title} style={{ width: '100%', height:'100%', objectFit: 'cover', borderRadius: 'inherit' }} loading="lazy" />
                       ) : null}
                     </div>
                   </div>

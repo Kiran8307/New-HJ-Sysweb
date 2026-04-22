@@ -42,7 +42,14 @@ function Lane({ items, dir = "down", className = "" }) {
       <div className={`lane-track ${dir === "down" ? "scroll-down" : "scroll-up"}`}>
         {doubled.map((src, i) => (
           <div className="card-tilt" key={`${dir}-${i}`}>
-            <img src={src} alt={`work ${i}`} width={460} height={260} priority={i < 2} />
+            <img 
+              src={src} 
+              alt={`work ${i}`} 
+              width={460} 
+              height={260} 
+              fetchPriority={i < 3 ? "high" : "auto"} 
+              loading={i < 3 ? "eager" : "lazy"} 
+            />
           </div>
         ))}
       </div>

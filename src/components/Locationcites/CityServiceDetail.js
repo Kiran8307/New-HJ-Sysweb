@@ -65,33 +65,28 @@ export default function CityServiceDetail() {
                 {currentService.title || currentService.name}
             </h1>
 
+            {/* General Description */}
+            {currentService.innerDesc ? (
+                <p className="inner-lead p" style={{ maxWidth: '800px', margin: '0 auto 40px', color: '#aaa', lineHeight: '1.8', textAlign: 'justify' }}>
+                    {currentService.innerDesc}
+                </p>
+            ) : null}
+
             {/* Deliverables & Outcome Section */}
-            <div style={{ marginBottom: '30px' }}>
-                <p style={{ fontSize: '20px', marginBottom: '15px' }}>
+            <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+                <p style={{ fontSize: '20px', marginBottom: '15px', textAlign: 'justify' }}>
                     <strong style={{ color: '#fff' }}>Deliverables :</strong> 
                     <span style={{ color: '#ccc', marginLeft: '10px' }}>
                         {currentService.points?.[0]?.replace('Deliverables:', '') || "Custom strategies and full execution."}
                     </span>
                 </p>
-                <p style={{ fontSize: '20px' }}>
+                <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     <strong style={{ color: '#fff' }}>Outcome :</strong> 
                     <span style={{ color: '#ccc', marginLeft: '10px' }}>
                         {currentService.points?.[1]?.replace('Outcome:', '') || "Measurable growth and brand authority."}
                     </span>
                 </p>
             </div>
-
-            {/* General Description */}
-            {currentService.desc ? (
-                <p className="inner-lead p" style={{ maxWidth: '800px', margin: '0 auto', color: '#aaa', lineHeight: '1.8' }}>
-                    {currentService.desc}
-                </p>
-            ) : null}
-            {currentService.innerDesc ? (
-                <p className="inner-lead p" style={{ maxWidth: '800px', margin: '20px auto 0', color: '#aaa', lineHeight: '1.8' }}>
-                    {currentService.innerDesc}
-                </p>
-            ) : null}
           </div>
         </header>
       </section>
@@ -109,7 +104,7 @@ export default function CityServiceDetail() {
       <LogoSlider speed={100} logos={logos} />
 
       <WorkTogetherSection
-        paras={currentService.desc ? [currentService.desc] : ["Let's build something great together."]}
+        paras={["Let's build something great together."]}
       />
       
       <Testimonials />
