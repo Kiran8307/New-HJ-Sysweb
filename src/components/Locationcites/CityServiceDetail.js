@@ -22,7 +22,7 @@ export default function CityServiceDetail() {
   const { currentCity, currentService } = useMemo(() => {
     const city = cityData.find((c) => c.id === cityId);
     if (!city) return { currentCity: null, currentService: null };
-    
+
     const service = city.services.find((s) => s.id === serviceId);
     return { currentCity: city, currentService: service };
   }, [cityId, serviceId]);
@@ -61,38 +61,38 @@ export default function CityServiceDetail() {
         <header className="inner-hero">
           <div className="inner-hero-text section-top" style={{ textAlign: 'center', padding: '60px 20px' }}>
             {/* Main Title */}
-            <h1 className="inner-title h2" style={{ fontSize: '48px', fontWeight: 'bold', marginBottom: '30px', color: '#fff' }}>
-                {currentService.title || currentService.name}
+            <h1 className="inner-title h2" >
+              {currentService.title || currentService.name}
             </h1>
 
             {/* General Description */}
             {currentService.innerDesc ? (
-                <p className="inner-lead p" style={{ maxWidth: '800px', margin: '0 auto 40px', color: '#aaa', lineHeight: '1.8', textAlign: 'justify' }}>
-                    {currentService.innerDesc}
-                </p>
+              <p className="inner-lead p" style={{ maxWidth: '800px', margin: '0 auto 40px', color: '#aaa', lineHeight: '1.8', textAlign: 'justify' }}>
+                {currentService.innerDesc}
+              </p>
             ) : null}
 
             {/* Deliverables & Outcome Section */}
             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                <p style={{ fontSize: '20px', marginBottom: '15px', textAlign: 'justify' }}>
-                    <strong style={{ color: '#fff' }}>Deliverables :</strong> 
-                    <span style={{ color: '#ccc', marginLeft: '10px' }}>
-                        {currentService.points?.[0]?.replace('Deliverables:', '') || "Custom strategies and full execution."}
-                    </span>
-                </p>
-                <p style={{ fontSize: '20px', textAlign: 'justify' }}>
-                    <strong style={{ color: '#fff' }}>Outcome :</strong> 
-                    <span style={{ color: '#ccc', marginLeft: '10px' }}>
-                        {currentService.points?.[1]?.replace('Outcome:', '') || "Measurable growth and brand authority."}
-                    </span>
-                </p>
+              <p style={{ fontSize: '20px', marginBottom: '15px', textAlign: 'justify' }}>
+                <strong style={{ color: '#fff' }}>Deliverables :</strong>
+                <span style={{ color: '#ccc', marginLeft: '10px' }}>
+                  {currentService.points?.[0]?.replace('Deliverables:', '') || "Custom strategies and full execution."}
+                </span>
+              </p>
+              <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+                <strong style={{ color: '#fff' }}>Outcome :</strong>
+                <span style={{ color: '#ccc', marginLeft: '10px' }}>
+                  {currentService.points?.[1]?.replace('Outcome:', '') || "Measurable growth and brand authority."}
+                </span>
+              </p>
             </div>
           </div>
         </header>
       </section>
 
       <MarketsSection />
-      
+
       <CtaBanner
         headingSmall="Want to Grow your Business?"
         headingLarge="Turn Traffic Into Revenue"
@@ -106,7 +106,7 @@ export default function CityServiceDetail() {
       <WorkTogetherSection
         paras={["Let's build something great together."]}
       />
-      
+
       <Testimonials />
     </div>
   );
