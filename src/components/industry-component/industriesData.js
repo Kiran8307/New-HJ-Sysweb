@@ -55,7 +55,7 @@ export const industriesData = [
     innerDesc:
       "Strategic marketing services for financial firms, CPA agencies, and consultants to build authority, generate leads, and enhance brand credibility.",
     desc: "Our finance marketing solutions focus on lead generation, trust building, and SEO optimization, helping financial businesses attract qualified clients and grow their online presence effectively.",
-    img: "/Industry/finance.png",
+    img: "/Industry/finance.webp",
     subIndustries: [
       {
         id: "financial-advisors",
@@ -131,7 +131,7 @@ export const industriesData = [
     innerDesc:
       "Result-driven digital marketing for restaurants to increase footfall, online orders, and brand visibility across local and online platforms.",
 
-    img: "/Industry/Restaurant.png",
+    img: "/Industry/Restaurant.webp",
     subIndustries: [
       {
         id: "restaurants-cafes",
@@ -245,7 +245,7 @@ export const industriesData = [
       "Performance marketing solutions for e-commerce businesses to increase sales, traffic, and customer retention.",
 
     desc: "We help e-commerce brands grow with conversion-focused SEO, paid ads, and product marketing strategies that drive traffic, increase sales, and improve customer retention effectively.",
-    img: "/Industry/E-commerce.png",
+    img: "/Industry/E-commerce.webp",
     subIndustries: [
       {
         title: "Online Marketplaces",
@@ -342,7 +342,7 @@ export const industriesData = [
       "Specialized marketing for manufacturing businesses to generate B2B leads and strengthen industry presence.",
 
     desc: "We help manufacturing companies generate B2B leads through SEO, industrial marketing strategies, and targeted campaigns that improve visibility and connect businesses with potential clients.",
-    img: "/Industry/Manufacturing & Industrial.png",
+    img: "/Industry/Manufacturing & Industrial.webp",
     subIndustries: [
       {
         title: "Machinery Manufacturers",
@@ -606,7 +606,7 @@ export const industriesData = [
       "Growth-driven marketing for IT companies and tech startups to generate leads and build authority.",
 
     desc: "Our IT marketing strategies focus on lead generation, SEO, and content marketing to help technology companies increase visibility, build authority, and attract high-quality clients.",
-    img: "/Industry/IT & Technology.png",
+    img: "/Industry/IT & Technology.webp",
     subIndustries: [
       {
         title: "IT Consulting Firms",
@@ -666,7 +666,7 @@ export const industriesData = [
       "Marketing solutions for construction companies to generate projects, leads, and strong brand presence.",
 
     desc: "We help construction businesses grow through SEO, project showcasing, and lead generation strategies that increase visibility and attract potential clients for long-term business growth.",
-    img: "/Industry/Construction.png",
+    img: "/Industry/Construction.webp",
     subIndustries: [
       {
         title: "Construction Companies",
@@ -713,7 +713,7 @@ export const industriesData = [
       "Digital marketing services for automotive businesses to increase inquiries, showroom visits, and brand awareness.",
 
     desc: "Our automotive marketing solutions help increase leads, showroom visits, and online visibility through SEO, paid ads, and targeted campaigns designed for maximum customer engagement.",
-    img: "/Industry/Automotive.png",
+    img: "/Industry/Automotive.webp",
     subIndustries: [
       {
         title: "Car Dealerships",
@@ -774,7 +774,7 @@ export const industriesData = [
       "Marketing strategies for agriculture and farming businesses to promote products and reach wider markets.",
 
     desc: "We help agriculture businesses grow by promoting products through SEO, digital campaigns, and branding strategies that increase reach, visibility, and customer engagement across markets.",
-    img: "/Industry/Agriculture & Farming.png",
+    img: "/Industry/Agriculture & Farming.webp",
     subIndustries: [
       {
         title: "Hydroponic Farms",
@@ -824,7 +824,7 @@ export const industriesData = [
       "Premium marketing solutions for jewelry and luxury brands to enhance brand value and attract high-end customers.",
 
     desc: "Our luxury marketing strategies focus on branding, SEO, and visual storytelling to attract premium customers, increase engagement, and build a strong high-end brand presence online.",
-    img: "/Industry/Jewelry & Luxury Brands.png",
+    img: "/Industry/Jewelry & Luxury Brands.webp",
     subIndustries: [
       {
         title: "Jewelry Stores",
@@ -885,7 +885,7 @@ export const industriesData = [
       "Performance marketing for electronics brands to boost product visibility and drive online sales.",
 
     desc: "We help electronics brands increase product visibility and sales through SEO, paid ads, and digital campaigns that target the right audience and improve conversion rates.",
-    img: "/Industry/Electronics & Gadgets.png",
+    img: "/Industry/Electronics & Gadgets.webp",
     subIndustries: [
       {
         title: "consumer electronics store",
@@ -948,7 +948,7 @@ export const industriesData = [
       "Global marketing strategies for import-export businesses to expand reach and generate international leads.",
 
     desc: "Our import-export marketing services help businesses expand globally through SEO, digital campaigns, and lead generation strategies that connect them with international buyers and partners.",
-    img: "/Industry/Import & Export.png",
+    img: "/Industry/Import & Export.webp",
     subIndustries: [
       {
         title: "Import Companies",
@@ -1020,7 +1020,7 @@ export const industriesData = [
       "Marketing solutions for sports businesses, gyms, and recreational brands to increase engagement and memberships.",
 
     desc: "We help sports and recreation businesses grow through social media marketing, SEO, and branding strategies that increase memberships, engagement, and overall business visibility.",
-    img: "/Industry/Sports & Recreation.png",
+    img: "/Industry/Sports & Recreation.webp",
     subIndustries: [
       {
         title: "Gyms & Fitness Centers",
@@ -1191,7 +1191,7 @@ export const industriesData = [
       "Advanced marketing strategies for B2B industrial businesses to generate leads and build long-term partnerships.",
 
     desc: "We help B2B industrial companies grow with SEO, lead generation, and targeted campaigns that connect businesses with decision-makers and build long-term professional relationships.",
-    img: "/Industry/B2B Industrial.png",
+    img: "/Industry/B2B Industrial.webp",
     subIndustries: [
       {
         title: "Industrial Equipment Suppliers",
