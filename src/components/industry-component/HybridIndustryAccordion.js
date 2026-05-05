@@ -13,19 +13,15 @@ export default function HybridIndustryAccordion({ items, parentImg }) {
       <div className={styles.container}>
         {items.map((item, idx) => {
           const isOpen = activeIndex === idx;
-          const bgImg = item.img || parentImg || "/Industry/fashion.webp";
+          const bgImg = parentImg || "/Industry/fashion.webp";
           const safeBgImg = bgImg.replace(/ /g, "%20").replace(/&/g, "%26");
 
           return (
-            <motion.div
+            <div
               key={idx}
               className={`${styles.row} ${isOpen ? styles.open : ""}`}
               onMouseEnter={() => setActiveIndex(idx)}
               onClick={() => setActiveIndex(isOpen ? -1 : idx)}
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.1 }}
-              transition={{ delay: (idx % 8) * 0.05, type: "spring", stiffness: 100 }}
             >
               <div
                 className={styles.bgImage}
@@ -50,7 +46,7 @@ export default function HybridIndustryAccordion({ items, parentImg }) {
                     >
                       <div className={styles.bodyInner}>
                         <p className={styles.desc}>
-                          {item.desc || `We provide specialized end-to-end technical solutions and expert consulting tailored specifically for the ${item.title} sector. Elevate your operational efficiency and drive true digital transformation.`}
+                          {item.desc || `We provide specialized end-to-end technical solutions and expert consulting tailored specifically for the ${item.title} sector.`}
                         </p>
 
                         <div className={styles.pointsGrid}>
@@ -58,27 +54,19 @@ export default function HybridIndustryAccordion({ items, parentImg }) {
                             "Strategic Market Analysis",
                             "Custom Growth Planning",
                             "Digital Presence Audit",
-                            "Targeted Lead Generation",
-                            "Performance Monitoring",
-                            "ROI Driven Optimization"
                           ]).map((point, pIdx) => (
                             <div key={pIdx} className={styles.pointItem}>
-                              <span className={styles.pointIcon}>
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                                  <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                              </span>
+                              <span className={styles.pointIcon}>✓</span>
                               <span>{point}</span>
                             </div>
                           ))}
                         </div>
-
                       </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
               </div>
-            </motion.div>
+            </div>
           );
         })}
       </div>

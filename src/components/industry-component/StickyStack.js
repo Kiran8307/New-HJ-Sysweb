@@ -27,22 +27,6 @@ export default function StickyStack({ items = industriesData, isInner = false })
           const isEven = i % 2 === 0;
           const tint = card.tint || COLORS[i % COLORS.length];
 
-          const cardVariants = {
-            hidden: { 
-              opacity: 0, 
-              y: 50
-            },
-            visible: {
-              opacity: 1,
-              y: 0,
-              transition: {
-                duration: 0.5,
-                ease: "easeOut"
-              }
-            }
-          };
-
-
           const innerContent = (
             <>
               <div className={styles.media}>
@@ -62,43 +46,24 @@ export default function StickyStack({ items = industriesData, isInner = false })
             </>
           );
 
-          const innerStyle = isInner ? {
-            position: 'relative',
-            top: 'auto',
-            marginTop: i === 0 ? '0px' : '60px',
-            perspective: '1500px',
-            "--tint": tint,
-            "--idx": i
-          } : {
+          const innerStyle = {
             "--tint": tint,
             "--idx": i
           };
 
-          const ArticleComponent = isInner ? motion.article : "article";
-          const motionProps = isInner ? {
-            initial: "hidden",
-            whileInView: "visible",
-            whileHover: { 
-              scale: 1.05, 
-              rotateX: 5,
-              rotateY: -5,
-              boxShadow: "0px 20px 40px rgba(0,0,0,0.6)",
-              transition: { type: "spring", stiffness: 400, damping: 20 }
-            },
-            viewport: { once: false, amount: 0.15 },
-            variants: cardVariants
-          } : {};
-
           return (
-            <ArticleComponent
+            <motion.article
               key={card.title}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
               className={`${styles.card} ${
                 isEven ? styles.left : styles.right
               }`}
               style={innerStyle}
-              {...motionProps}
             >
-              {!isInner && card.id ? (
+              {card.id ? (
                 <Link 
                   to={`/industries-we-serve/${card.id}`}
                   target="_blank"
@@ -116,7 +81,7 @@ export default function StickyStack({ items = industriesData, isInner = false })
                   {innerContent}
                 </div>
               )}
-            </ArticleComponent>
+            </motion.article>
           );
         })}
       </div>
