@@ -61,12 +61,14 @@
 }
 
 .logo-bg {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center; /* horizontal center */
-  align-items: center;     /* vertical center */
-  padding: 8px;
-  border-radius: 30px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      /* horizontal center */
+      align-items: center;
+      /* vertical center */
+      padding: 8px;
+      border-radius: 30px;
 }
 
 /* keyframes: translate exactly one copy width (50%) because we duplicated the row once */
@@ -90,7 +92,8 @@
       .logo-marquee {
             --cell-h: 34px;
       }
-      .logo-cell img{
+
+      .logo-cell img {
             width: 150px;
       }
 }
@@ -102,6 +105,7 @@
       }
 }
 
-.rfm-initial-child-container{
+.rfm-initial-child-container {
       gap: 40px !important;
+      padding: 15px 0;
 }
