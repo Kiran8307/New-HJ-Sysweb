@@ -22,13 +22,13 @@ const PORTFOLIO_ITEMS = [
     title: "Lifestyle Branding",
     image:
       "/portfolio/Protfolio-main/Woocommerce USA Website Development by HJ Sysweb.webp",
-    logo: "/client-logo/lifestyle_logo.webp",
+    logo: "/client-logo/lifestyle-branding.png",
   },
   {
     id: "flowercity-pharmacy",
     title: "Flowercity Pharmacy",
     image: "/portfolio/Protfolio-main/Canada Pharmacy Website Development.webp",
-    logo: "/client-logo/flowercitypharmacy_logo.webp",
+    logo: "/client-logo/Flowercity-Pharmacy.png",
   },
   {
     id: "shah-associates",
@@ -55,7 +55,7 @@ const PORTFOLIO_ITEMS = [
     title: "Ayur Khyati",
     image:
       "/portfolio/Protfolio-main/Ayurvedic Website Development by HJ Sysweb.webp",
-    logo: "/client-logo/ayur_khyati_logo.webp",
+    logo: "/client-logo/ayur-khyati.png",
   },
   {
     id: "bjp-mla-portfolio",
@@ -68,14 +68,14 @@ const PORTFOLIO_ITEMS = [
     title: "Navya by Nirali",
     image:
       "/portfolio/Protfolio-main/Boutique Website Development by HJ Sysweb.webp",
-    logo: "/client-logo/navya_logo.webp",
+    logo: "/client-logo/navya-nirali.png",
   },
   {
     id: "clinic-line",
     title: "Clinic Line",
     image:
       "/portfolio/Protfolio-main/Clinic Line Mobile App Development by HJ Sysweb.webp",
-    logo: "/client-logo/clinic_line_logo.webp",
+    logo: "/client-logo/clinic-line.png",
   },
   {
     id: "social-sadhu",
@@ -88,7 +88,7 @@ const PORTFOLIO_ITEMS = [
     title: "Supersee",
     image:
       "/portfolio/Protfolio-main/Employee Monitoring System Development.webp",
-    logo: "/client-logo/supersee_logo.webp",
+    logo: "/client-logo/super-see.png",
   },
   {
     id: "aani-system",
@@ -108,7 +108,7 @@ const PORTFOLIO_ITEMS = [
     title: "Advocate JP",
     image:
       "/portfolio/Protfolio-main/Website Development of advocate jp by HJ Sysweb.webp",
-    logo: "/client-logo/advocate_jp_logo.webp",
+    logo: "/client-logo/advocate-jp.png",
   },
   {
     id: "akshara-beauty-and-hair",
@@ -128,7 +128,7 @@ const PORTFOLIO_ITEMS = [
     title: "Cold Stone Creamery",
     image:
       "/portfolio/Protfolio-main/SOcial Media Management of Cold Stone Creamery.webp",
-    logo: "/client-logo/cold_stone.webp",
+    logo: "/client-logo/COLDSTONE.png",
   },
   {
     id: "double-pizza",
@@ -141,7 +141,7 @@ const PORTFOLIO_ITEMS = [
     title: "Eye n u Kenya",
     image:
       "/portfolio/Protfolio-main/Website Development of eye n u kenya by HJ Sysweb.webp",
-    logo: "/client-logo/eyenu_logo.webp",
+    logo: "/client-logo/EYEN-U.png",
   },
   {
     id: "friends-culture-group",
@@ -154,7 +154,7 @@ const PORTFOLIO_ITEMS = [
     id: "Gokul-children-hospital",
     title: "Gokul Children Hospital",
     image: "/portfolio/Protfolio-main/website dev gokul children hospital.webp",
-    logo: "/client-logo/gokul_logo.webp",
+    logo: "/client-logo/Gokul.png",
   },
   {
     id: "hbk-clicks",
@@ -189,7 +189,7 @@ const PORTFOLIO_ITEMS = [
     title: "Maa Gayatri Clinic",
     image:
       "/portfolio/Protfolio-main/Website Development of maa gayatri by HJ Sysweb.webp",
-    logo: "/client-logo/maa_gayatri_logo.webp",
+    logo: "/client-logo/maa-gayatri-ortho-care.png",
   },
   {
     id: "mahavir-eye-hospital",
@@ -203,14 +203,14 @@ const PORTFOLIO_ITEMS = [
     title: "Advocate Malvika Singh Associates",
     image:
       "/portfolio/Protfolio-main/Website Development of malvika singh by HJ Sysweb.webp",
-    logo: "/client-logo/malvika_logo.webp",
+    logo: "/client-logo/Malvika.png",
   },
   {
     id: "mandurah-cafe",
     title: "Mandurah cafe",
     image:
       "/portfolio/Protfolio-main/Mandurah cafe Australia Website Development by HJ Sysweb.webp",
-    logo: "/client-logo/mandurah_cafe_logo.webp",
+    logo: "/client-logo/Mandurah-cafe.png",
   },
   {
     id: "gokul-montessori",
@@ -235,14 +235,14 @@ const PORTFOLIO_ITEMS = [
     title: "Physio Buzz",
     image:
       "/portfolio/Protfolio-main/Physio.Buzz Mobile app development by HJ Sysweb.webp",
-    logo: "/client-logo/physio_buzz_logo.webp",
+    logo: "/client-logo/physio-buzz.png",
   },
   {
     id: "radhe-towing",
     title: "Radhe Towing",
     image:
       "/portfolio/Protfolio-main/Website Development of Radhe Towing by HJ Sysweb.webp",
-    logo: "/client-logo/radhe_logo.webp",
+    logo: "/client-logo/Radhe-Towing.png",
   },
   {
     id: "renovise-construction",
@@ -255,9 +255,9 @@ const PORTFOLIO_ITEMS = [
     id: "venue",
     title: "Venue 1625",
     image: "/portfolio/Protfolio-main/US Party Hall Website Development.webp",
-    logo: "/client-logo/Venue_logo.webp",
+    logo: "/client-logo/Venue.png",
   },
-   {
+  {
     id: "tads-tandoori",
     title: "Tads Tandoori",
     image: "/portfolio/Protfolio-main/Tads Tandoori Development.webp",
@@ -267,55 +267,55 @@ const PORTFOLIO_ITEMS = [
     id: "sangopan-adolescent",
     title: "Sach",
     image: "/portfolio/Protfolio-main/Sach Website development.webp",
-    logo: "/client-logo/sach_logo.webp",
+    logo: "/client-logo/Sangopan_logo.webp",
   },
   {
     id: "spinners-table-tennis",
     title: "Spinners Table Tennis",
     image: "/portfolio/Protfolio-main/Spinners Table Website Development.webp",
-    logo: "/client-logo/Spinners_logo.webp",
+    logo: "/client-logo/Spinner.png",
   },
   {
     id: "rudrika-clinic",
     title: "Rudrika Clinic",
     image: "/portfolio/Protfolio-main/Rudrika Clinic Vadodara Website Development by HJ Sysweb.webp",
-    logo: "/client-logo/rudrika_logo.webp",
+    logo: "/client-logo/Rudrika-hospital.png",
   },
   {
     id: "vasco-import-export",
     title: "Vasco Import Export",
     image: "/portfolio/Protfolio-main/Import Export Website Development.webp",
-    logo: "/client-logo/Vasco_logo.webp",
+    logo: "/client-logo/vasco.png",
   },
   {
     id: "welliotte",
     title: "Welliotte",
     image: "/portfolio/Protfolio-main/Welliotte Website Development.webp",
-    logo: "/client-logo/Welliotte_logo.webp",
+    logo: "/client-logo/Welliote.png",
   },
-   {
+  {
     id: "shree-hari-engineering",
     title: "Shree Hari Engineering",
     image: "/portfolio/Protfolio-main/Shree Hari ENgineering V.U.Nagar Website Development.webp",
-    logo: "/client-logo/shreehari_logo.webp",
+    logo: "/client-logo/Shree-Hari.png",
   },
   {
     id: "santram-accounting",
     title: "Santram Accounting",
     image: "/portfolio/Protfolio-main/Santram Accounting Anand Website Development.webp",
-    logo: "/client-logo/santram_accounting.webp",
+    logo: "/client-logo/santram.png",
   },
   {
     id: "i-get-wap",
     title: "I Get Wap",
     image: "/portfolio/Protfolio-main/Website Development of i get wap by HJ Sysweb.webp",
-    logo: "/client-logo/i get wape.webp",
+    logo: "/client-logo/iget-vape.png",
   },
   {
     id: "tribhuvandas-foundation",
     title: "Tribhuvandas Foundation",
     image: "/portfolio/Protfolio-main/Tribhuvandas Foundation App Development.webp",
-    logo: "/client-logo/tribhuvandas_foundation_logo.webp",
+    logo: "/client-logo/Tribhuvandas_logo.webp",
   },
 ];
 
