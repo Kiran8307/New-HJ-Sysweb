@@ -35,14 +35,14 @@ const PORTFOLIO_ITEMS = [
     title: "Shah & Associates",
     image:
       "/portfolio/Protfolio-main/USA Accointing Firm Website Development.webp",
-    logo: "/client-logo/shah_logo.webp",
+    logo: "/client-logo/snasoo.png",
   },
   {
     id: "kp-accounting",
     title: "KP Accounting",
     image:
       "/portfolio/Protfolio-main/US Accounting form Website Development.webp",
-    logo: "/client-logo/kp_logo.webp",
+    logo: "/client-logo/KP-Accounting.png",
   },
   {
     id: "allwail",
@@ -94,7 +94,7 @@ const PORTFOLIO_ITEMS = [
     id: "aani-system",
     title: "Aani System",
     image: "/portfolio/Protfolio-main/Website Development of aani system by HJ Sysweb.webp",
-    logo: "/client-logo/aani_systems_logo.webp",
+    logo: "/client-logo/Aani-systems.png",
   },
   {
     id: "aradhna-bachat-sahkari-mandali",
@@ -196,7 +196,7 @@ const PORTFOLIO_ITEMS = [
     title: "Mahavir Eye Hospital",
     image:
       "/portfolio/Protfolio-main/Website Development of mahavir eye by HJ Sysweb.webp",
-    logo: "/client-logo/mahavir_logo.webp",
+    logo: "/client-logo/Mahavir-eye-hospital.png",
   },
   {
     id: "advocate-malvika-singh-associates",
