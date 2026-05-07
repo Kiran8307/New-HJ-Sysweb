@@ -81,7 +81,7 @@ const PORTFOLIO_ITEMS = [
     id: "social-sadhu",
     title: "Social Sadhu",
     image: "/portfolio/Protfolio-main/Digital Agency Website Development.webp",
-    logo: "/client-logo/social_sadhu_logo.webp",
+    logo: "/client-logo/social_sadhu_logo.png",
   },
   {
     id: "supersee",
