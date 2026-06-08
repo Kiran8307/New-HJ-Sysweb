@@ -21,7 +21,7 @@ async function optimizeImages() {
 
   for (const imgPath of TARGET_IMAGES) {
     const absoluteInputPath = path.resolve(imgPath);
-    
+
     if (!fs.existsSync(absoluteInputPath)) {
       console.warn(`File not found: ${imgPath}. Skipping...`);
       continue;
@@ -43,7 +43,7 @@ async function optimizeImages() {
       totalSavedBytes += savedBytes;
 
       const formatSize = (bytes) => (bytes / (1024 * 1024)).toFixed(2) + ' MB';
-      
+
       console.log(`Optimized: ${imgPath}`);
       console.log(`  Original:  ${formatSize(originalSize)} (${originalSize.toLocaleString()} bytes)`);
       console.log(`  WebP:      ${formatSize(optimizedSize)} (${optimizedSize.toLocaleString()} bytes)`);

@@ -105,7 +105,7 @@ export default function ServiceSection() {
       </div>
 
       <div className="spark-vector">
-        <img src="/sprak-service.gif" alt="" className="spark-vector-image" />
+        <img src="/sprak-service.gif" alt="" className="spark-vector-image" loading="lazy" />
       </div>
     </section>
   );

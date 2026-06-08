@@ -12,7 +12,7 @@ export default function RocketSection({
     { title: "Process", body: "Research → 90-day plan → launch → test → scale winners, stop waste." },
     { title: "Proof", body: "Real case studies, live numbers, and transparent reporting you can trust." },
   ],
-  rocketSrc = "/about-page/rocket.gif",
+  rocketSrc = "/about-page/rocket.webp",
   bgArcSrc = "/roket-yellow.png",       // faint yellow arc (optional)
 //   bgDotsSrc = "/vision/bg-dots.png",     // small speckle texture (optional)
  
@@ -100,7 +100,7 @@ const dropChild = {
           whileInView="show"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <img src={rocketSrc} alt="Rocket"  className="rv-rocket-img"  />
+          <img src={rocketSrc} alt="Rocket" className="rv-rocket-img" loading="lazy" />
         </motion.div>
 
           <motion.p

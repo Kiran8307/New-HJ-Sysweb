@@ -15,9 +15,10 @@ export default function SlantedMarquee({
     <div className="about-marquee-main mt">
       <div className="about-marquee-image">
         <img
-          src="/approach/idea.gif"
+          src="/approach/idea.webp"
           alt={iconAlt}
           className="about-marquee__icon"
+          loading="lazy"
         />
       </div>
       <div

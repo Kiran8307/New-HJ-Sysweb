@@ -73,7 +73,7 @@ export default function CaseStudySingle() {
           <p className="cs-longdesc">{cs.longDescription}</p>
 
           <div className="spark-vector-cs">
-            <img alt="" className="spark-vector-image-cs" src="/sprak-service.gif" />
+            <img alt="" className="spark-vector-image-cs" src="/sprak-service.gif" loading="lazy" />
           </div>
 
           {cs.mainImage && (

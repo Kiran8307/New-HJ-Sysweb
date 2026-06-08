@@ -41,6 +41,7 @@ export default function IndustriesPage() {
           src="/sprak-service.gif"
           alt="Spark animation"
           className="spark-vector-image-industry"
+          loading="lazy"
         />
       </div>
 

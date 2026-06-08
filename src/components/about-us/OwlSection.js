@@ -8,22 +8,22 @@ export default function OwlSection({
     {
       title: "RESULTS OVER HYPE",
       body: "We plan less, deliver more. Our filter is simple: will this bring enquiries or sales? If yes, it ships. If not, it waits. Clear priorities, accountable work, and growth you can measure.",
-      icon: "/about-page/mission.gif",
+      icon: "/about-page/mission.webp",
     },
     {
       title: "SPEED & DISCIPLINE",
       body: "We keep projects moving with weekly sprints and clear priorities. You get visible deliveries each week and a transparent monthly summary of progress, learnings, and next steps - so momentum never dips and surprises stay off your calendar.",
-      icon: "/about-page/vision.gif",
+      icon: "/about-page/vision.webp",
     },
     {
       title: "DATA YOU CAN TRUST",
       body: "We set up clean tracking and simple dashboards, so every decision starts with facts. No messy reports, no guesswork. You’ll know what’s working, what’s not, and where to put your next rupee.",
-      icon: "/about-page/value.gif",
+      icon: "/about-page/value.webp",
     },
     {
       title: "ALWAYS-ON SUPPORT",
       body: "You get direct access to the team - no layers. We reply fast, fix blockers, and bring proactive ideas before you ask. Regular check-ins, shared WhatsApp, and clear next steps so momentum stays up even between meetings.",
-      icon: "/about-page/client.gif",
+      icon: "/about-page/client.webp",
     },
   ],
 }) {
@@ -70,7 +70,7 @@ export default function OwlSection({
               viewport={{ once: true, amount: 0.3 }}
             >
               <div className="owl-card-header">
-                <img src={c.icon} alt="" className="owl-card-icon" />
+                <img src={c.icon} alt="" className="owl-card-icon" loading="lazy" />
                 <h4 className="owl-card-title">{c.title}</h4>
               </div>
               <p className="owl-card-body">{c.body}</p>
