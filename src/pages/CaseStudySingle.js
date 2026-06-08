@@ -67,7 +67,7 @@ export default function CaseStudySingle() {
 
         <div className="cs-content-main-img">
           <div className="cs-yellow-side">
-            <img src="/testimonial/testimonial-yellow.png" alt="decorative shape" />
+            <img src="/testimonial/testimonial-yellow.webp" alt="decorative shape" />
           </div>
 
           <p className="cs-longdesc">{cs.longDescription}</p>

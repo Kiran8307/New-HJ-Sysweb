@@ -71,7 +71,7 @@ export default function AboutSection({
       {/* background + decorative vector */}
       <div className="about-bg" aria-hidden>
         <motion.img
-          src="/testimonial/testimonial-yellow.png"
+          src="/testimonial/testimonial-yellow.webp"
           alt=""
           className="about-decor-img"
           aria-hidden="true"

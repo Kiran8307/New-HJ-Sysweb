@@ -53,3 +53,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Local backup directory
+public/backup-assets/
+build.zip
+

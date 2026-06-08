@@ -7,8 +7,8 @@ export const caseStudies = [
     metaTitle: "Discover how HJ Sysweb enhanced Navya by Nirali’s online presence with impactful storytelling, seamless shopping experience, and improved digital visibility in the ethnic fashion industry.",
     metaDesc: "Navya by Nirali Case Study | Digital Growth by HJ Sysweb",
    thumbnail: "/case-study/navya.png",
-    heroImage: "/case-study/banner-navya.png",
-    mainImage: "/case-study/navya/navya-laptop.png",
+    heroImage: "/case-study/banner-navya.webp",
+    mainImage: "/case-study/navya/navya-laptop.webp",
     description:
       "Celebrating Indian craftsmanship through timeless elegance  where heritage meets modern fashion to create stunning ensembles loved by women across the globe.",
     longDescription:
@@ -55,12 +55,12 @@ export const caseStudies = [
       ],
     },
     gallery: [
-      "/case-study/navya/navya-g1.png",
-      "/case-study/navya/navya-g2.png",
-      "/case-study/navya/navya-g3.png",
-      "/case-study/navya/navya-g4.png",
-      "/case-study/navya/navya-g5.png",
-      "/case-study/navya/navya-g6.png",
+      "/case-study/navya/navya-g1.webp",
+      "/case-study/navya/navya-g2.webp",
+      "/case-study/navya/navya-g3.webp",
+      "/case-study/navya/navya-g4.webp",
+      "/case-study/navya/navya-g5.webp",
+      "/case-study/navya/navya-g6.webp",
     ],
   },
 

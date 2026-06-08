@@ -50,7 +50,7 @@ export default function IndustriesPage() {
       <div
         className="wt-callout"
         style={{
-          backgroundImage: "url('/Service-page/yellow-bg.png')",
+          backgroundImage: "url('/Service-page/yellow-bg.webp')",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",

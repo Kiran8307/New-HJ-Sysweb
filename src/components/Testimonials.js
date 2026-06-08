@@ -130,7 +130,7 @@ export default function Testimonials() {
     <section className="twrap mt">
       {/* left decorative vector */}
       <img
-        src="/testimonial/testimonial-yellow.png"
+        src="/testimonial/testimonial-yellow.webp"
         alt=""
         className="t-decor-img"
         aria-hidden="true"
