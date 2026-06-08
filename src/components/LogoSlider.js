@@ -23,11 +23,12 @@ export default function LogoSlider({ speed = 30, title }) {
         speed={speed}
         pauseOnHover={true}
         loop={0}
+        autoFill={true}
       >
         {items.map((it, i) => (
           <div className="logo-cell" key={i}>
             <div className="logo-bg">
-              <img loading="lazy" src={it.src} alt={it.alt} />
+              <img src={it.src} alt={it.alt} width="200" height="100" />
             </div>
           </div>
         ))}

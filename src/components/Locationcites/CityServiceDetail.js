@@ -78,13 +78,13 @@ export default function CityServiceDetail() {
               <p style={{ fontSize: '20px', marginBottom: '15px', textAlign: 'justify' }}>
                 <strong style={{ color: '#fff' }}>Deliverables :</strong>
                 <span style={{ color: '#ccc', marginLeft: '10px' }}>
-                  {currentService.points?.[0]?.replace('Deliverables:', '') || "Custom strategies and full execution."}
+                  {(currentService.innerPoints || currentService.points)?.[0]?.replace('Deliverables:', '') || "Custom strategies and full execution."}
                 </span>
               </p>
               <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                 <strong style={{ color: '#fff' }}>Outcome :</strong>
                 <span style={{ color: '#ccc', marginLeft: '10px' }}>
-                  {currentService.points?.[1]?.replace('Outcome:', '') || "Measurable growth and brand authority."}
+                  {(currentService.innerPoints || currentService.points)?.[1]?.replace('Outcome:', '') || "Measurable growth and brand authority."}
                 </span>
               </p>
             </div>

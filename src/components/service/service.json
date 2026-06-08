@@ -9,8 +9,8 @@
     "meta-desc": "Build a brand buyers remember and choose. Positioning, logo systems, guidelines, and packaging engineered to lift trust, margins, and conversion.",
     "inner-title": "Branding Services",
     "inner-desc": "We build brands that buyers remember and choose. From strategy to visual identity, every asset is engineered to lift trust, justify price, and convert more visitors into enquiries and orders. Clear positioning + consistent design = higher margins, faster growth.",
-    "icon":"/gif/branding.gif",
-    "worktogether":"Branding is storytelling done right. We transform concepts into captivating brand experiences that speak directly to your audience. From defining tone and visuals to shaping perception, we ensure every touchpoint reflects authenticity, evokes emotion, and builds recognition that fuels sustainable digital growth.",
+    "icon": "/gif/branding.gif",
+    "worktogether": "Branding is storytelling done right. We transform concepts into captivating brand experiences that speak directly to your audience. From defining tone and visuals to shaping perception, we ensure every touchpoint reflects authenticity, evokes emotion, and builds recognition that fuels sustainable digital growth.",
     "subServices": [
       {
         "id": "logo-design",
@@ -84,8 +84,8 @@
     "meta-desc": "Big ideas that sell. Concepts, copy, storyboards, and productions that boost recall, CTR, and ROAS across print, outdoor, TV, and digital.",
     "inner-title": "Creative Advertising Services",
     "inner-desc": "Big ideas, tightly produced. We turn insights into concepts, copy, and visuals that work across every channel print, OOH, TV, and digital. Expect message - market fit, consistent brand recall, and campaigns built to lift CTR, lower CPA, and increase ROAS.",
-    "icon":"/gif/creative-ads.gif",
-    "worktogether":"We craft creative advertising strategies that spark attention and drive measurable impact. From digital campaigns to visual storytelling, we combine design, emotion, and data-driven precision to connect brands with audiences, enhance visibility, and deliver results that inspire engagement and long-term growth.",
+    "icon": "/gif/creative-ads.gif",
+    "worktogether": "We craft creative advertising strategies that spark attention and drive measurable impact. From digital campaigns to visual storytelling, we combine design, emotion, and data-driven precision to connect brands with audiences, enhance visibility, and deliver results that inspire engagement and long-term growth.",
     "subServices": [
       {
         "id": "print-advertising",
@@ -159,8 +159,8 @@
     "meta-desc": "A connected growth system across search and social. Capture intent, build demand, and convert more visitors with dashboards that prove ROI.",
     "inner-title": "Digital Marketing Services",
     "inner-desc": "We don’t run isolated tactics - we build a connected growth system. Search captures intent, social builds demand, and on-site UX turns interest into enquiries. You get a simple plan, weekly execution, and dashboards that prove what’s driving leads, sales, and ROI.",
-    "icon":"/gif/digital-marketing.gif",
-    "worktogether":"We design data-backed digital marketing strategies that convert. From SEO to social media and performance ads, we focus on increasing visibility, engagement, and ROI. Our goal is simply turning digital channels into measurable growth opportunities for your business.",
+    "icon": "/gif/digital-marketing.gif",
+    "worktogether": "We design data-backed digital marketing strategies that convert. From SEO to social media and performance ads, we focus on increasing visibility, engagement, and ROI. Our goal is simply turning digital channels into measurable growth opportunities for your business.",
     "subServices": [
       {
         "id": "seo",
@@ -210,8 +210,8 @@
     "meta-desc": "Profit-first campaigns. Rebuilt accounts, testing, landing pages, and automation that lower CPL, raise ROAS, and create a predictable pipeline.",
     "inner-title": "Performance Marketing Services",
     "inner-desc": "We don’t “run ads.” We build a revenue system. Search captures high intent, paid social creates demand, and conversion/automation turn clicks into customers. You get a clear 90-day plan, daily optimizations, and plain-English reporting that ties spend to pipeline and profit.",
-     "icon":"/gif/performance-marketing.gif",
-     "worktogether":"Our performance marketing strategies are built to deliver measurable ROI. We combine analytics, targeting, and optimization to ensure every ad, click, and conversion drives value. From search to social, we help brands maximize revenue and achieve data-backed digital growth.",
+    "icon": "/gif/performance-marketing.gif",
+    "worktogether": "Our performance marketing strategies are built to deliver measurable ROI. We combine analytics, targeting, and optimization to ensure every ad, click, and conversion drives value. From search to social, we help brands maximize revenue and achieve data-backed digital growth.",
     "subServices": [
       {
         "id": "google-ads",
@@ -279,8 +279,8 @@
     "meta-desc": "Fast, secure, conversion-focused websites. UX, copy, and tracking baked in built to rank, load under 2.5s, and turn clicks into enquiries.",
     "inner-title": "Website Development Services",
     "inner-desc": "Your website should be a sales engine, not a brochure. We plan the structure, craft persuasive copy and UX, build on reliable tech, and wire in analytics and automation. Expect faster load times, higher conversions, and clean hand-off to marketing for measurable growth.",
-     "icon":"/gif/web-dev.gif",
-     "worktogether":"HJ Sysweb builds websites that inspire confidence and deliver performance. From custom designs to robust backend systems, we combine creativity with cutting-edge technology to create responsive, secure, and SEO-ready websites that help brands grow, engage audiences, and stand out online.",
+    "icon": "/gif/web-dev.gif",
+    "worktogether": "HJ Sysweb builds websites that inspire confidence and deliver performance. From custom designs to robust backend systems, we combine creativity with cutting-edge technology to create responsive, secure, and SEO-ready websites that help brands grow, engage audiences, and stand out online.",
     "subServices": [
       {
         "id": "wordpress",
@@ -354,67 +354,97 @@
     "meta-desc": "Marketplace setup, A+ content, PPC, FBA compliance, and product SEO. Improve rank, conversion, and ROAS while protecting margins.",
     "inner-title": "E-commerce Solutions Services",
     "inner-desc": "We build a sales system across marketplaces - not just listings. From onboarding and compliance to SEO-rich content and profit-first ads, we make sure your products are easy to find, trust, and buy. Expect higher rank, healthier margins, and repeatable growth you can track.",
-     "icon":"/gif/e-commerce-sol.gif",
-     "worktogether":"E-commerce success begins with smart technology and strategy. HJ Sysweb creates scalable online stores that combine design excellence with high performance. We optimize speed, UX, and functionality to help businesses expand reach, increase sales, and deliver a superior customer journey.",
+    "icon": "/gif/e-commerce-sol.gif",
+    "worktogether": "E-commerce success begins with smart technology and strategy. HJ Sysweb creates scalable online stores that combine design excellence with high performance. We optimize speed, UX, and functionality to help businesses expand reach, increase sales, and deliver a superior customer journey.",
     "subServices": [
       {
         "id": "amazon",
         "title": "Amazon Seller Services",
         "desc": "Set up and optimize your Amazon seller account with strategic product listings, keyword optimization, and account management to increase visibility and drive consistent sales growth.",
+        "innerDesc": "Launching and growing your brand on Amazon requires more than just listing products; it demands a comprehensive strategy. We specialize in end-to-end seller account management, starting from registry setup to high-converting A+ content and SEO-optimized product listings. By leveraging data-driven advertising campaigns, we help you lower ACOS, improve organic visibility, win the buy box, and scale your Amazon channel profitability with full operational compliance.",
         "image": "/service-inner/ecommerce-solutions/amazon-seller-services.webp",
         "points": [
           "What we do : account setup, Brand Registry, catalog build, A+ Content, keyword research, reviews strategy, pricing/coupons, FBA/FBM setup, and PPC (SP/SB/SD) with ACOS guardrails.",
           "Outcome : Increased product visibility, higher sales, and improved marketplace performance"
+        ],
+        "innerPoints": [
+          "What we do : Conduct in-depth keyword research, build brand storefronts, create premium A+ content and product detail pages, set up advertising campaigns (SP, SB, SD), handle inventory monitoring, manage FBA/FBM logistics, and run review generation campaigns.",
+          "Outcome : Achieve a significant rise in organic search visibility, lower ACOS by at least 20%, improve conversion rates, increase monthly sales volume, and maintain a healthy account status."
         ]
       },
       {
         "id": "flipkart",
         "title": "Flipkart Seller Setup",
         "desc": "Launch your Flipkart seller account with proper setup, product cataloging, and optimization to ensure smooth operations and maximum visibility in the marketplace.",
+        "innerDesc": "Flipkart is one of India's largest e-commerce marketplaces, presenting a massive opportunity for brand exposure and sales. Our specialized Flipkart account management services ensure your brand gets noticed. We handle everything from registration, GST/KYC verification, catalog mapping, and listing QC to running Flipkart ads. We optimize listings for Flipkart's search algorithm to ensure your products rank on the first page, helping you grow volume quickly.",
         "image": "/service-inner/ecommerce-solutions/flipkart-seller-setup.webp",
         "points": [
           "What we do : GST/KYC, catalog mapping, listing QC, Smart Fulfillment, promotions, and Flipkart Ads with performance dashboards.",
           "Outcome : Faster setup, better visibility, and increased sales on Flipkart platform"
+        ],
+        "innerPoints": [
+          "What we do : Perform seamless brand onboarding, catalog mapping, listing creation with QC checks, run targeted Flipkart Ads, plan promotional calendars, implement Smart Fulfillment, and provide performance dashboard analysis.",
+          "Outcome : Fast-tracked launch within days, enhanced product visibility in category listings, improved order volumes, and optimized advertising spends for maximum return."
         ]
       },
       {
         "id": "meesho",
         "title": "Meesho Glowroad Services",
         "desc": "Start and manage your Meesho and GlowRoad seller presence with optimized product listings, pricing strategies, and catalog management to maximize reach and profitability.",
+        "innerDesc": "Meesho and Glowroad are revolutionizing social commerce in India, connecting sellers with millions of value-conscious tier-2 and tier-3 buyers. To succeed here, you need highly competitive pricing, high-quality images, and robust attribute configuration. We specialize in managing listings on these platforms, ensuring your products are mapped with correct attributes, optimized for social sharing, and structured to minimize return rates while driving massive order volumes.",
         "image": "/service-inner/ecommerce-solutions/meesho-glowroad-services.webp",
         "points": [
           "What we do : onboarding, catalog/import, attribute hygiene, competitive pricing, logistics alignment, promo calendar, and return-rate reduction.",
           "Outcome : Improved reach, higher order volume, and consistent marketplace growth"
+        ],
+        "innerPoints": [
+          "What we do : Onboard your brand, optimize product catalogs and attributes, execute competitive pricing strategies, align shipping and logistics, manage promotional participation, and implement strategies to reduce return rates.",
+          "Outcome : Massively increased order volumes, expanded brand reach in tier-2/3 regions, lowered return rates, and optimized profit margins per transaction."
         ]
       },
       {
         "id": "product-listing",
         "title": "Product Listing Optimization",
         "desc": "Optimize product listings with SEO-friendly titles, descriptions, images, and keywords to improve search visibility, attract buyers, and increase conversion rates.",
+        "innerDesc": "Your product detail page is your virtual salesperson. If your titles, bullet points, and images aren't optimized, you are losing money to competitors. We write keyword-rich, persuasive titles and descriptions designed to convince both the search algorithm and the buyer. By creating high-quality infographics, lifestyle images, and video stacks, we answer buyer objections upfront, resulting in higher click-through rates, lower bounce rates, and increased conversions.",
         "image": "/service-inner/ecommerce-solutions/product-listing-optimization.webp",
         "points": [
           "What we do : keyword-led titles, bullets, and descriptions; image stacks, infographics, and video; attributes/search terms; compliance checks across Amazon/Flipkart/Meesho/Shopify.",
           "Outcome : Better product ranking, increased clicks, and higher conversion rates"
+        ],
+        "innerPoints": [
+          "What we do : Write search-optimized titles and feature bullet points, design high-converting product infographics, create custom descriptions, configure backend search terms, and execute compliance checks across Shopify, Amazon, and Flipkart.",
+          "Outcome : Higher click-through rates (CTR) on listings, increased detail page conversion rates, improved organic search ranking, and reduced customer questions."
         ]
       },
       {
-        "id": "fba",
-        "title": "FBA Compliance Services",
+        "id": "quick",
+        "title": "Quick Commerce",
         "desc": "Ensure your products meet Amazon FBA compliance standards with proper packaging, labeling, and documentation to avoid penalties and ensure smooth fulfillment operations.",
-        "image": "/service-inner/ecommerce-solutions/fba-compliance-services.webp",
+        "innerDesc": "Quick Commerce demands absolute operational efficiency and compliance. Any delay in packing, labeling, or document submission can lead to heavy penalties and delisting from dark stores. Our team ensures your products meet strict FBA and quick commerce guidelines. We manage prep work, packaging, barcode creation, shipment scheduling, and return processing so that your inventory flows smoothly and you maintain an exemplary seller score.",
+        "image": "/service-inner/ecommerce-solutions/quick-commerce.webp",
         "points": [
           "What we do : prep/pack/label, barcode & cartonization, dangerous-goods review, shipment creation, reconciliation, returns processing, and account-health monitoring.",
           "Outcome : Smooth fulfillment process with reduced errors and improved delivery efficiency"
+        ],
+        "innerPoints": [
+          "What we do : Perform prep, packaging, and custom labeling, handle barcode generation and cartonization, conduct dangerous-goods reviews, handle shipment reconciliation, process customer returns, and monitor account health metrics.",
+          "Outcome : Zero compliance penalties, reduced shipping errors, faster dark store check-ins, improved inventory turnaround, and pristine seller metrics."
         ]
       },
       {
         "id": "ecommerce-marketing",
         "title": "E-commerce Marketing",
         "desc": "Drive traffic and sales through strategic e-commerce marketing using ads, SEO, and promotional campaigns to increase brand visibility and maximize online revenue.",
+        "innerDesc": "E-commerce marketing is about converting traffic into recurring customers at the lowest possible cost. We build full-funnel marketing campaigns across multiple channels, including Google Shopping, Meta retargeting, and Amazon Ads. By pairing this with automated email and WhatsApp cart recovery flows, we ensure you capture lost sales. Our approach focuses on increasing Customer Lifetime Value (LTV) and optimizing return on ad spend (ROAS) to build a highly profitable online business.",
         "image": "/service-inner/ecommerce-solutions/ecommerce-marketing.webp",
         "points": [
           "What we do : Amazon Ads, Flipkart Ads, Google Shopping, Meta remarketing, influencer/UGC, email/WhatsApp flows, coupons, and LTV programs all UTM/tracked.",
           "Outcome : Higher traffic, increased sales, and improved return on investment"
+        ],
+        "innerPoints": [
+          "What we do : Manage full-funnel ad campaigns across Google and Meta, build automated email/WhatsApp cart recovery sequences, design coupons and loyalty programs, run influencer/UGC campaigns, and track all channels with custom UTM links.",
+          "Outcome : Significantly increased return on ad spend (ROAS), higher customer retention rates, reduced shopping cart abandonment, and clear attribution of marketing spend to revenue."
         ]
       }
     ]
@@ -429,8 +459,8 @@
     "meta-desc": "Design, build, and grow premium apps. Smooth UX, clean analytics, ASO, and maintenance, so installs turn into retention and revenue.",
     "inner-title": "Mobile App Development Services",
     "inner-desc": "We ship apps that feel premium, load fast, and convert. From product strategy and UI/UX to Flutter/native builds, analytics, ASO, and growth loops - we align features with business goals, shorten time-to-market, and prove ROI with dashboards you understand.",
-     "icon":"/gif/mobile-dev.gif",
-     "worktogether":"We develop high-performing mobile applications that enhance user experience and drive business growth. Our expert team crafts secure, scalable, and intuitive apps for Android and iOS - turning innovative ideas into seamless digital products that engage users and deliver measurable results.",
+    "icon": "/gif/mobile-dev.gif",
+    "worktogether": "We develop high-performing mobile applications that enhance user experience and drive business growth. Our expert team crafts secure, scalable, and intuitive apps for Android and iOS - turning innovative ideas into seamless digital products that engage users and deliver measurable results.",
     "subServices": [
       {
         "id": "flutter",
@@ -504,8 +534,8 @@
     "meta-desc": "A repeatable engine for compounding results. Offers, funnels, email/WhatsApp automation, and experiments that lower CAC and increase LTV.",
     "inner-title": "Growth Marketing Services",
     "inner-desc": "We design a connected system that attracts the right audience, guides them through a clear funnel, and nurtures them into loyal customers. Strategy, execution, and measurement run in weekly sprints - so you see steady lead flow, lower CPL, and growth you can track.",
-     "icon":"/gif/growth-market.gif",
-     "worktogether":"Our growth marketing strategies blend creativity with analytics to accelerate measurable results. We focus on customer acquisition, engagement, and retention through data-driven campaigns that amplify visibility, optimize conversions, and turn marketing investments into sustainable long-term business growth.",
+    "icon": "/gif/growth-market.gif",
+    "worktogether": "Our growth marketing strategies blend creativity with analytics to accelerate measurable results. We focus on customer acquisition, engagement, and retention through data-driven campaigns that amplify visibility, optimize conversions, and turn marketing investments into sustainable long-term business growth.",
     "subServices": [
       {
         "id": "lead-gen",
