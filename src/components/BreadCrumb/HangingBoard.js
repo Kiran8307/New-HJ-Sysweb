@@ -21,8 +21,8 @@ export default function HangingBoard({
   const wrapRef = useRef(null);
   const tickRef = useRef(null);
   const [inView, setInView] = useState(false);
-  const [typed, setTyped] = useState("");
   const [done, setDone] = useState(false);
+  const textContainerRef = useRef(null);
   
 
   // Normalize to a definite string (prevents 'undefined')
@@ -53,8 +53,10 @@ export default function HangingBoard({
     if (!inView) return;
 
     if (tickRef.current) clearInterval(tickRef.current);
-    setTyped("");
     setDone(false);
+    if (textContainerRef.current) {
+      textContainerRef.current.innerHTML = "";
+    }
 
     let i = 0;
     if (units.length === 0) {
@@ -63,7 +65,10 @@ export default function HangingBoard({
     }
 
     tickRef.current = setInterval(() => {
-      setTyped(units.slice(0, i + 1).join(""));
+      const currentText = units.slice(0, i + 1).join("");
+      if (textContainerRef.current) {
+        textContainerRef.current.innerHTML = currentText.replace(/\n/g, '<br />');
+      }
       i += 1;
 
       if (i >= units.length) {
@@ -90,16 +95,7 @@ export default function HangingBoard({
     return () => clearTimeout(t);
   }, [inView]);
 
-  const rendered = useMemo(
-    () =>
-      typed.split("\n").map((line, idx, arr) => (
-        <span key={idx}>
-          {line}
-          {idx < arr.length - 1 && <br />}
-        </span>
-      )),
-    [typed]
-  );
+
 
   return (
     <div className="handing-board mt">
@@ -119,7 +115,7 @@ export default function HangingBoard({
         {/* Board */}
         <div className="hb2-board">
           <p className="hb2-text">
-            {rendered}
+            <span ref={textContainerRef}></span>
             {!done && units.length > 0 && <span className="hb2-caret" />}
           </p>
         </div>
