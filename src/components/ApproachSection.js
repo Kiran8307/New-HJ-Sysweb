@@ -5,17 +5,17 @@ const STEPS = [
   {
     title: "Research",
     text: "We study your market, competitors, and data to spot demand, gaps, and quick wins-then set targets for traffic and Cost Per Lead.",
-    img: "/approach/research.webp",
+    img: "/approach/research.webm",
   },
   {
     title: "Process",
     text: "A 90-day plan with priorities, tracking, and clear KPIs. We fix the foundations, build key pages, and line up tests.",
-    img: "/approach/idea.webp",
+    img: "/approach/idea.webm",
   },
   {
     title: "Deliver",
     text: "Launch SEO, ads, and CRO experiments. Scale what works, cut waste, and report the impact on leads, revenue, and ROAS.",
-    img: "/approach/flying-bird.webp",
+    img: "/approach/flying-bird.webm",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function ApproachSection() {
         {STEPS.map((s, i) => (
           <div className="approach-card" key={i}>
             <div className="approach-img">
-              <img src={s.img} alt={s.title} loading="lazy" />
+              <video src={s.img} autoPlay loop muted playsInline width="100%" height="auto" />
             </div>
             <h3>{s.title}</h3>
             <p>{s.text}</p>
