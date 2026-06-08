@@ -84,7 +84,7 @@
     "meta-desc": "Big ideas that sell. Concepts, copy, storyboards, and productions that boost recall, CTR, and ROAS across print, outdoor, TV, and digital.",
     "inner-title": "Creative Advertising Services",
     "inner-desc": "Big ideas, tightly produced. We turn insights into concepts, copy, and visuals that work across every channel print, OOH, TV, and digital. Expect message - market fit, consistent brand recall, and campaigns built to lift CTR, lower CPA, and increase ROAS.",
-    "icon": "/gif/creative-ads.webp",
+    "icon": "/gif/creative-ads.gif",
     "worktogether": "We craft creative advertising strategies that spark attention and drive measurable impact. From digital campaigns to visual storytelling, we combine design, emotion, and data-driven precision to connect brands with audiences, enhance visibility, and deliver results that inspire engagement and long-term growth.",
     "subServices": [
       {
@@ -159,7 +159,7 @@
     "meta-desc": "A connected growth system across search and social. Capture intent, build demand, and convert more visitors with dashboards that prove ROI.",
     "inner-title": "Digital Marketing Services",
     "inner-desc": "We don’t run isolated tactics - we build a connected growth system. Search captures intent, social builds demand, and on-site UX turns interest into enquiries. You get a simple plan, weekly execution, and dashboards that prove what’s driving leads, sales, and ROI.",
-    "icon": "/gif/digital-marketing.webp",
+    "icon": "/gif/digital-marketing.gif",
     "worktogether": "We design data-backed digital marketing strategies that convert. From SEO to social media and performance ads, we focus on increasing visibility, engagement, and ROI. Our goal is simply turning digital channels into measurable growth opportunities for your business.",
     "subServices": [
       {
@@ -361,90 +361,90 @@
         "id": "amazon",
         "title": "Amazon Seller Services",
         "desc": "Set up and optimize your Amazon seller account with strategic product listings, keyword optimization, and account management to increase visibility and drive consistent sales growth.",
-        "innerDesc": "Launching and growing your brand on Amazon requires more than just listing products; it demands a comprehensive strategy. We specialize in end-to-end seller account management, starting from registry setup to high-converting A+ content and SEO-optimized product listings. By leveraging data-driven advertising campaigns, we help you lower ACOS, improve organic visibility, win the buy box, and scale your Amazon channel profitability with full operational compliance.",
+        "innerDesc": "Expand your online business with professional Amazon Seller Services designed to help brands establish, manage, and grow their presence on Amazon. HJ Sysweb assists businesses with seller account setup, product catalog management, listing optimization, inventory coordination, and marketplace growth strategies. Our team focuses on improving product visibility, increasing conversions, and helping sellers achieve sustainable sales growth in one of the world's largest e-commerce marketplaces.",
         "image": "/service-inner/ecommerce-solutions/amazon-seller-services.webp",
         "points": [
           "What we do : account setup, Brand Registry, catalog build, A+ Content, keyword research, reviews strategy, pricing/coupons, FBA/FBM setup, and PPC (SP/SB/SD) with ACOS guardrails.",
           "Outcome : Increased product visibility, higher sales, and improved marketplace performance"
         ],
         "innerPoints": [
-          "What we do : Conduct in-depth keyword research, build brand storefronts, create premium A+ content and product detail pages, set up advertising campaigns (SP, SB, SD), handle inventory monitoring, manage FBA/FBM logistics, and run review generation campaigns.",
-          "Outcome : Achieve a significant rise in organic search visibility, lower ACOS by at least 20%, improve conversion rates, increase monthly sales volume, and maintain a healthy account status."
+          "What we do : We create and manage Amazon seller accounts, optimize product listings, handle catalog uploads, improve product visibility, and implement marketplace strategies that help businesses attract more customers and generate higher sales.",
+          "Outcome : A professionally managed Amazon store with improved product rankings, increased customer engagement, stronger brand visibility, and higher revenue growth opportunities."
         ]
       },
       {
         "id": "flipkart",
         "title": "Flipkart Seller Setup",
         "desc": "Launch your Flipkart seller account with proper setup, product cataloging, and optimization to ensure smooth operations and maximum visibility in the marketplace.",
-        "innerDesc": "Flipkart is one of India's largest e-commerce marketplaces, presenting a massive opportunity for brand exposure and sales. Our specialized Flipkart account management services ensure your brand gets noticed. We handle everything from registration, GST/KYC verification, catalog mapping, and listing QC to running Flipkart ads. We optimize listings for Flipkart's search algorithm to ensure your products rank on the first page, helping you grow volume quickly.",
+        "innerDesc": "Launch and grow your business on Flipkart with expert seller setup and marketplace management services. HJ Sysweb helps businesses establish a strong presence on Flipkart by handling account registration, seller verification, product uploads, catalog creation, and marketplace optimization. Our solutions are designed to streamline onboarding, enhance product discoverability, and support businesses in reaching millions of online shoppers across India.",
         "image": "/service-inner/ecommerce-solutions/flipkart-seller-setup.webp",
         "points": [
           "What we do : GST/KYC, catalog mapping, listing QC, Smart Fulfillment, promotions, and Flipkart Ads with performance dashboards.",
           "Outcome : Faster setup, better visibility, and increased sales on Flipkart platform"
         ],
         "innerPoints": [
-          "What we do : Perform seamless brand onboarding, catalog mapping, listing creation with QC checks, run targeted Flipkart Ads, plan promotional calendars, implement Smart Fulfillment, and provide performance dashboard analysis.",
-          "Outcome : Fast-tracked launch within days, enhanced product visibility in category listings, improved order volumes, and optimized advertising spends for maximum return."
+          "What we do : We assist with Flipkart seller registration, account verification, catalog management, product listing creation, and marketplace optimization to ensure a smooth and successful selling experience.",
+          "Outcome : A fully configured Flipkart seller account that enables faster product launches, greater marketplace visibility, and improved sales performance."
         ]
       },
       {
         "id": "meesho",
         "title": "Meesho Glowroad Services",
         "desc": "Start and manage your Meesho and GlowRoad seller presence with optimized product listings, pricing strategies, and catalog management to maximize reach and profitability.",
-        "innerDesc": "Meesho and Glowroad are revolutionizing social commerce in India, connecting sellers with millions of value-conscious tier-2 and tier-3 buyers. To succeed here, you need highly competitive pricing, high-quality images, and robust attribute configuration. We specialize in managing listings on these platforms, ensuring your products are mapped with correct attributes, optimized for social sharing, and structured to minimize return rates while driving massive order volumes.",
+        "innerDesc": "Reach value-driven customers through professional Meesho and GlowRoad seller services. HJ Sysweb helps businesses and resellers establish their presence on these growing social commerce platforms by managing seller onboarding, product catalog creation, listing optimization, and account setup. Our team ensures your products are presented effectively, helping you attract buyers, improve conversions, and scale your online business efficiently.",
         "image": "/service-inner/ecommerce-solutions/meesho-glowroad-services.webp",
         "points": [
           "What we do : onboarding, catalog/import, attribute hygiene, competitive pricing, logistics alignment, promo calendar, and return-rate reduction.",
           "Outcome : Improved reach, higher order volume, and consistent marketplace growth"
         ],
         "innerPoints": [
-          "What we do : Onboard your brand, optimize product catalogs and attributes, execute competitive pricing strategies, align shipping and logistics, manage promotional participation, and implement strategies to reduce return rates.",
-          "Outcome : Massively increased order volumes, expanded brand reach in tier-2/3 regions, lowered return rates, and optimized profit margins per transaction."
+          "What we do : We manage seller registration, product catalog uploads, listing optimization, account configuration, and marketplace support to help businesses maximize opportunities on Meesho and GlowRoad.",
+          "Outcome : Increased product exposure, improved customer reach, enhanced marketplace performance, and greater opportunities for consistent online sales growth."
         ]
       },
       {
         "id": "product-listing",
         "title": "Product Listing Optimization",
         "desc": "Optimize product listings with SEO-friendly titles, descriptions, images, and keywords to improve search visibility, attract buyers, and increase conversion rates.",
-        "innerDesc": "Your product detail page is your virtual salesperson. If your titles, bullet points, and images aren't optimized, you are losing money to competitors. We write keyword-rich, persuasive titles and descriptions designed to convince both the search algorithm and the buyer. By creating high-quality infographics, lifestyle images, and video stacks, we answer buyer objections upfront, resulting in higher click-through rates, lower bounce rates, and increased conversions.",
+        "innerDesc": "Well-optimized product listings play a crucial role in e-commerce success. HJ Sysweb provides Product Listing Optimization services that improve product visibility, search rankings, and customer engagement across major marketplaces. We optimize titles, descriptions, keywords, images, and attributes to ensure your products attract the right audience and encourage higher conversion rates while complying with marketplace guidelines.",
         "image": "/service-inner/ecommerce-solutions/product-listing-optimization.webp",
         "points": [
           "What we do : keyword-led titles, bullets, and descriptions; image stacks, infographics, and video; attributes/search terms; compliance checks across Amazon/Flipkart/Meesho/Shopify.",
           "Outcome : Better product ranking, increased clicks, and higher conversion rates"
         ],
         "innerPoints": [
-          "What we do : Write search-optimized titles and feature bullet points, design high-converting product infographics, create custom descriptions, configure backend search terms, and execute compliance checks across Shopify, Amazon, and Flipkart.",
-          "Outcome : Higher click-through rates (CTR) on listings, increased detail page conversion rates, improved organic search ranking, and reduced customer questions."
+          "What we do : We optimize product titles, descriptions, backend keywords, images, specifications, and category attributes to improve search visibility and increase customer conversion potential.",
+          "Outcome : Higher search rankings, improved click-through rates, stronger customer engagement, and increased sales from optimized product visibility."
         ]
       },
       {
         "id": "quick",
         "title": "Quick Commerce",
         "desc": "Ensure your products meet Amazon FBA compliance standards with proper packaging, labeling, and documentation to avoid penalties and ensure smooth fulfillment operations.",
-        "innerDesc": "Quick Commerce demands absolute operational efficiency and compliance. Any delay in packing, labeling, or document submission can lead to heavy penalties and delisting from dark stores. Our team ensures your products meet strict FBA and quick commerce guidelines. We manage prep work, packaging, barcode creation, shipment scheduling, and return processing so that your inventory flows smoothly and you maintain an exemplary seller score.",
+        "innerDesc": "Accelerate your brand's online growth with Quick Commerce Services from HJ Sysweb. We help businesses establish and manage their presence on leading quick commerce platforms such as Blinkit, Zepto, Instamart, BigBasket Now, and other instant delivery marketplaces. From seller onboarding and catalog management to product optimization and promotional strategies, we ensure your products are positioned for maximum visibility, faster sales, and rapid customer reach.",
         "image": "/service-inner/ecommerce-solutions/quick-commerce.webp",
         "points": [
           "What we do : prep/pack/label, barcode & cartonization, dangerous-goods review, shipment creation, reconciliation, returns processing, and account-health monitoring.",
           "Outcome : Smooth fulfillment process with reduced errors and improved delivery efficiency"
         ],
         "innerPoints": [
-          "What we do : Perform prep, packaging, and custom labeling, handle barcode generation and cartonization, conduct dangerous-goods reviews, handle shipment reconciliation, process customer returns, and monitor account health metrics.",
-          "Outcome : Zero compliance penalties, reduced shipping errors, faster dark store check-ins, improved inventory turnaround, and pristine seller metrics."
+          "What we do : We handle quick commerce onboarding, seller account setup, product catalog creation, inventory integration, listing optimization, platform compliance, and promotional campaign management to help businesses succeed in the fast-growing instant delivery ecosystem.",
+          "Outcome : Increased product visibility, faster customer acquisition, improved order volume, stronger marketplace presence, and accelerated business growth through quick commerce channels."
         ]
       },
       {
         "id": "ecommerce-marketing",
         "title": "E-commerce Marketing",
         "desc": "Drive traffic and sales through strategic e-commerce marketing using ads, SEO, and promotional campaigns to increase brand visibility and maximize online revenue.",
-        "innerDesc": "E-commerce marketing is about converting traffic into recurring customers at the lowest possible cost. We build full-funnel marketing campaigns across multiple channels, including Google Shopping, Meta retargeting, and Amazon Ads. By pairing this with automated email and WhatsApp cart recovery flows, we ensure you capture lost sales. Our approach focuses on increasing Customer Lifetime Value (LTV) and optimizing return on ad spend (ROAS) to build a highly profitable online business.",
+        "innerDesc": "Drive more traffic, conversions, and revenue with strategic E-Commerce Marketing services from HJ Sysweb. We create data-driven marketing campaigns across search engines, social media platforms, marketplaces, and remarketing channels to help businesses attract qualified customers. Our approach focuses on increasing brand awareness, improving customer acquisition, and maximizing return on investment for long-term online business growth.",
         "image": "/service-inner/ecommerce-solutions/ecommerce-marketing.webp",
         "points": [
           "What we do : Amazon Ads, Flipkart Ads, Google Shopping, Meta remarketing, influencer/UGC, email/WhatsApp flows, coupons, and LTV programs all UTM/tracked.",
           "Outcome : Higher traffic, increased sales, and improved return on investment"
         ],
         "innerPoints": [
-          "What we do : Manage full-funnel ad campaigns across Google and Meta, build automated email/WhatsApp cart recovery sequences, design coupons and loyalty programs, run influencer/UGC campaigns, and track all channels with custom UTM links.",
-          "Outcome : Significantly increased return on ad spend (ROAS), higher customer retention rates, reduced shopping cart abandonment, and clear attribution of marketing spend to revenue."
+          "What we do : We develop e-commerce marketing campaigns, manage paid advertising, optimize product promotions, run social media marketing, and implement strategies that generate targeted traffic and conversions.",
+          "Outcome : Higher online visibility, increased qualified traffic, improved conversion rates, stronger brand recognition, and sustainable e-commerce business growth."
         ]
       }
     ]
@@ -459,7 +459,7 @@
     "meta-desc": "Design, build, and grow premium apps. Smooth UX, clean analytics, ASO, and maintenance, so installs turn into retention and revenue.",
     "inner-title": "Mobile App Development Services",
     "inner-desc": "We ship apps that feel premium, load fast, and convert. From product strategy and UI/UX to Flutter/native builds, analytics, ASO, and growth loops - we align features with business goals, shorten time-to-market, and prove ROI with dashboards you understand.",
-    "icon": "/gif/mobile-dev.webp",
+    "icon": "/gif/mobile-dev.gif",
     "worktogether": "We develop high-performing mobile applications that enhance user experience and drive business growth. Our expert team crafts secure, scalable, and intuitive apps for Android and iOS - turning innovative ideas into seamless digital products that engage users and deliver measurable results.",
     "subServices": [
       {
