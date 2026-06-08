@@ -12,7 +12,7 @@ export default function RocketSection({
     { title: "Process", body: "Research → 90-day plan → launch → test → scale winners, stop waste." },
     { title: "Proof", body: "Real case studies, live numbers, and transparent reporting you can trust." },
   ],
-  rocketSrc = "/about-page/rocket.webp",
+  rocketSrc = "/about-page/Rocket.webp",
   bgArcSrc = "/roket-yellow.png",       // faint yellow arc (optional)
 //   bgDotsSrc = "/vision/bg-dots.png",     // small speckle texture (optional)
  
