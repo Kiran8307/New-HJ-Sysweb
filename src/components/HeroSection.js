@@ -3,31 +3,18 @@ import "./../components/style/hero.css";
 import HeroScroller from "./HeroScroller";
 
 export default function HeroSection() {
-  const [loadVideo, setLoadVideo] = useState(false);
-
-  useEffect(() => {
-    // Only load the massive video if we are on a fast desktop device to save Mobile CPU & Bandwidth
-    const isMobile = window.innerWidth <= 768;
-    if (!isMobile) {
-      const timer = setTimeout(() => setLoadVideo(true), 1500);
-      return () => clearTimeout(timer);
-    }
-  }, []);
 
   return (
     <section className="hero site-gutter">
-      {/* looping video background */}
-      {loadVideo && (
-        <video
-          className="hero-video"
-          autoPlay
-          loop
-          muted
-          playsInline
-        >
-          <source src="/earth-bg.webm" type="video/webm" />
-        </video>
-      )}
+      <video
+        className="hero-video"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/earth-bg.webm" type="video/webm" />
+      </video>
 
       {/* gradient overlay */}
       {/* <div className="hero-overlay" />   */}
