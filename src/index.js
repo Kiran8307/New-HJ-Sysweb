@@ -10,7 +10,7 @@ import "./index.css";
 /** 🔧 Set CSS vars from PUBLIC_URL (images live in /public) */
 const rootStyle = document.documentElement.style;
 rootStyle.setProperty("--bg-image", `url(${process.env.PUBLIC_URL}/Body-bg.webp)`);
-rootStyle.setProperty("--page-bg", `url(${process.env.PUBLIC_URL}/body/Frame.png)`);
+rootStyle.setProperty("--page-bg", `url(${process.env.PUBLIC_URL}/body/Frame.webp)`);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
  <HelmetProvider>
