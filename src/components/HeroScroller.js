@@ -58,7 +58,10 @@ function Lane({ items, dir = "down", className = "" }) {
 }
 
 export default function HeroScroller() {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(() => {
+    if (typeof window !== "undefined") return window.innerWidth <= 768;
+    return false;
+  });
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth <= 768);
