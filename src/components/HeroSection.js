@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./../components/style/hero.css";
 import HeroScroller from "./HeroScroller";
 
