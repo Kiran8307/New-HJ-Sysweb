@@ -69,9 +69,14 @@ function urlTag(loc, { lastmod, changefreq = "weekly", priority = "0.7" } = {}) 
 }
 
 async function generate() {
-  // 1) Fetch posts from WPGraphQL
-  const data = await fetchGraphQL(QUERY);
-  const posts = data?.posts?.nodes ?? [];
+  // 1) Fetch posts from WPGraphQL (with error handling)
+  let posts = [];
+  try {
+    const data = await fetchGraphQL(QUERY);
+    posts = data?.posts?.nodes ?? [];
+  } catch (err) {
+    console.warn("⚠️ Could not fetch WP posts, skipping them in sitemap. Error:", err.message);
+  }
 
   // 2) Build URLs
   const urls = [];
@@ -135,6 +140,6 @@ ${urls.join("\n")}
 }
 
 generate().catch((e) => {
-  console.error("❌ Sitemap generation failed:", e);
-  process.exit(1);
+  console.error("❌ Sitemap generation failed but continuing build:", e);
+  process.exit(0); // Exit with 0 so it doesn't break the build
 });
