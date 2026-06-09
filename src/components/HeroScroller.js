@@ -1,6 +1,4 @@
 "use client";
-import { useEffect, useState } from "react";
-
 
 const IMAGES_A = [
   "/home/aani-system.webp",
@@ -47,8 +45,8 @@ function Lane({ items, dir = "down", className = "" }) {
               alt={`work ${i}`} 
               width={460} 
               height={260} 
-              fetchPriority={i < 3 ? "high" : "auto"} 
-              loading={i < 3 ? "eager" : "lazy"} 
+              fetchPriority={i < 6 ? "high" : "auto"} 
+              loading={i < 6 ? "eager" : "lazy"} 
             />
           </div>
         ))}
@@ -58,34 +56,6 @@ function Lane({ items, dir = "down", className = "" }) {
 }
 
 export default function HeroScroller() {
-  const [isMobile, setIsMobile] = useState(() => {
-    if (typeof window !== "undefined") return window.innerWidth <= 768;
-    return false;
-  });
-
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth <= 768);
-    check();
-    window.addEventListener("resize", check);
-    
-    return () => {
-      window.removeEventListener("resize", check);
-    };
-  }, []);
-
-
-
-  // For mobile → merge both arrays and scroll down in one lane
-  if (isMobile) {
-    const merged = [...IMAGES_A, ...IMAGES_B];
-    return (
-      <div className="scroller mobile-single">
-        <Lane items={merged} dir="down" />
-      </div>
-    );
-  }
-
-  // Default (desktop) → two lanes opposite directions
   return (
     <div className="scroller">
       <Lane items={IMAGES_A} dir="down" className="lane-a" />

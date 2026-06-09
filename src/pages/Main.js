@@ -1,17 +1,16 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import HeroSection from "../components/HeroSection";
-import StatsSection from "../components/StatsSection";
-import ServiceSection from "../components/ServiceSection";
-import MarketsSection from "../components/MarketsSection";
-import PortfolioSection from "../components/PortfolioSection";
-import CtaBanner from "../components/CtaBanner";
-import ApproachSection from "../components/ApproachSection";
-import ToolsSection from "../components/ToolsSection";
-import BlogSection from "../blogs/BlogSection";
-import Testimonials from "../components/Testimonials";
-// Footer can live in App layout or here
-
 import { Helmet } from "react-helmet-async";
+
+const StatsSection = lazy(() => import("../components/StatsSection"));
+const ServiceSection = lazy(() => import("../components/ServiceSection"));
+const MarketsSection = lazy(() => import("../components/MarketsSection"));
+const PortfolioSection = lazy(() => import("../components/PortfolioSection"));
+const CtaBanner = lazy(() => import("../components/CtaBanner"));
+const ApproachSection = lazy(() => import("../components/ApproachSection"));
+const ToolsSection = lazy(() => import("../components/ToolsSection"));
+const BlogSection = lazy(() => import("../blogs/BlogSection"));
+const Testimonials = lazy(() => import("../components/Testimonials"));
 
 export default function Main() {
   return (
@@ -25,22 +24,24 @@ export default function Main() {
       </Helmet>
 
       <HeroSection />
-      <StatsSection />
-      <ServiceSection />
-      <MarketsSection />
-      <PortfolioSection />
-      <CtaBanner
-  headingSmall="Want to Grow your Business?"
-  headingLarge="Turn Traffic Into Revenue"
-  description="Share your website and monthly goal, we’ll reply with a short action plan."
-  buttonText="Send Details"
-  buttonLink="/contact-us"
-/>
-
-      <ApproachSection />
-      <ToolsSection />
-     <BlogSection/>
-      <Testimonials />
+      
+      <Suspense fallback={<div style={{minHeight: '20vh'}}></div>}>
+        <StatsSection />
+        <ServiceSection />
+        <MarketsSection />
+        <PortfolioSection />
+        <CtaBanner
+          headingSmall="Want to Grow your Business?"
+          headingLarge="Turn Traffic Into Revenue"
+          description="Share your website and monthly goal, we’ll reply with a short action plan."
+          buttonText="Send Details"
+          buttonLink="/contact-us"
+        />
+        <ApproachSection />
+        <ToolsSection />
+        <BlogSection/>
+        <Testimonials />
+      </Suspense>
     </>
   );
 }

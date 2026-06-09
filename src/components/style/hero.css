@@ -360,7 +360,13 @@ height: 700px;
 
 @media (max-width: 768px) {
   .scroller {
-    grid-template-columns: repeat(1, 200px);
+    grid-template-columns: repeat(1, 160px);
+    transform: rotate(13deg);
+    height: 100vh;
+    justify-content: center;
+  }
+  .lane-b {
+    display: none;
   }
 
   .hero {
